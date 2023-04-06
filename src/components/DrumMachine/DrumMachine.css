@@ -1,0 +1,25 @@
+.drum-machine__pad-container {
+    padding: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 152px;
+    margin-top: 20px;
+}
+
+body {
+    background: url("https://www.vinylchapters.com/wp-content/uploads/2020/07/record-player-750x420.jpg") no-repeat;
+    background-size: cover;
+}
