@@ -7,4 +7,5 @@
     background-color: #575656;
     font-size: 55px;
     color: white;
+    user-select: none;
 }
