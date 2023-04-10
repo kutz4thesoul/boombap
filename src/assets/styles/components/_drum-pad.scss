@@ -1,0 +1,17 @@
+.drum-machine {
+    &__pad {
+        align-items: center;
+        border: 1px solid #a42c24;
+        background-color: #eb4034;
+        color: white;
+        display: flex;
+        font-size: 25px;
+        $square-size: calc((100% - 126px) / 3);
+        height: $square-size;
+        width: $square-size;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+        user-select: none;
+    }
+}

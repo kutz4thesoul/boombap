@@ -1,11 +1,9 @@
-import './DrumPad.css';
-
-function handleClick(sound) {
-    sound.currentTime = 0;
-    sound.play();
-}
-
 function DrumPad(props) {
+
+    function handleClick(sound) {
+        sound.currentTime = 0;
+        sound.play();
+    }
 
     window.addEventListener('keydown', handleKeyDown);
     function handleKeyDown(value) {
@@ -17,7 +15,7 @@ function DrumPad(props) {
     }
 
     return(
-        <div className="drum-machine__pad" onClick={() => handleClick(props.sound)}>{props.trigger}</div>
+        <div className="drum-machine__pad" onClick={() => handleClick(props.sound)}><p>{props.trigger}</p></div>
     )
 }
 

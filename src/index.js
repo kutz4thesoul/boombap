@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './assets/styles/main.scss';
 import DrumMachine from './components/DrumMachine/DrumMachine';
 import reportWebVitals from './reportWebVitals';
 
